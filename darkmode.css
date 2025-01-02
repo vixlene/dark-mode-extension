@@ -1,0 +1,23 @@
+/* Scope styles to the .dark-mode class */
+.dark-mode {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+}
+
+.dark-mode a {
+    color: #bb86fc !important;
+}
+
+.dark-mode button, 
+.dark-mode input, 
+.dark-mode textarea, 
+.dark-mode select {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border-color: #444444 !important;
+}
+
+/* Prevent blacking out unintended elements */
+.dark-mode div, .dark-mode span, .dark-mode section {
+    background-color: inherit !important;
+}
